@@ -16,8 +16,25 @@ common_cflags := \
 common_cflags += \
     -fexceptions \
     -Wno-c++11-narrowing \
-    -Wno-error \
-    -Wno-non-virtual-dtor
+    -Wno-dangling-else \
+    -Wno-delete-non-virtual-dtor \
+    -Wno-deprecated-increment-bool \
+    -Wno-ignored-qualifiers \
+    -Wno-implicit-exception-spec-mismatch \
+    -Wno-logical-op-parentheses \
+    -Wno-missing-field-initializers \
+    -Wno-non-virtual-dtor \
+    -Wno-overloaded-virtual \
+    -Wno-reorder \
+    -Wno-self-assign \
+    -Wno-sign-compare \
+    -Wno-switch \
+    -Wno-unneeded-internal-declaration \
+    -Wno-unused-const-variable \
+    -Wno-unused-function \
+    -Wno-unused-parameter \
+    -Wno-unused-private-field \
+    -Wno-unused-variable
 
 common_c_includes := \
     $(LOCAL_PATH)/CPP \
