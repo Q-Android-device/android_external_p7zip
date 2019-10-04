@@ -21,6 +21,8 @@ common_cflags += \
     -Wno-deprecated-increment-bool \
     -Wno-ignored-qualifiers \
     -Wno-implicit-exception-spec-mismatch \
+    -Wno-implicit-fallthrough \
+    -Wno-increment-bool \
     -Wno-logical-op-parentheses \
     -Wno-missing-field-initializers \
     -Wno-non-virtual-dtor \
