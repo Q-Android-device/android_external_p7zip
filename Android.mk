@@ -11,7 +11,8 @@ common_cflags := \
     -DBREAK_HANDLER \
     -DUNICODE \
     -D_UNICODE \
-    -DUNIX_USE_WIN_FILE
+    -DUNIX_USE_WIN_FILE \
+    -D_FILE_OFFSET_BITS=64
 
 common_cflags += \
     -fexceptions \
